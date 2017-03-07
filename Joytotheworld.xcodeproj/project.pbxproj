@@ -1,0 +1,528 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D458032D1E6F0CA4000ABBEE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D458032C1E6F0CA4000ABBEE /* AppDelegate.swift */; };
+		D458032F1E6F0CA4000ABBEE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D458032E1E6F0CA4000ABBEE /* ViewController.swift */; };
+		D45803321E6F0CA4000ABBEE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D45803301E6F0CA4000ABBEE /* Main.storyboard */; };
+		D45803341E6F0CA4000ABBEE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D45803331E6F0CA4000ABBEE /* Assets.xcassets */; };
+		D45803371E6F0CA4000ABBEE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D45803351E6F0CA4000ABBEE /* LaunchScreen.storyboard */; };
+		D45803421E6F0CA4000ABBEE /* JoytotheworldTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D45803411E6F0CA4000ABBEE /* JoytotheworldTests.swift */; };
+		D458034D1E6F0CA4000ABBEE /* JoytotheworldUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D458034C1E6F0CA4000ABBEE /* JoytotheworldUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D458033E1E6F0CA4000ABBEE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D45803211E6F0CA4000ABBEE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D45803281E6F0CA4000ABBEE;
+			remoteInfo = Joytotheworld;
+		};
+		D45803491E6F0CA4000ABBEE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D45803211E6F0CA4000ABBEE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D45803281E6F0CA4000ABBEE;
+			remoteInfo = Joytotheworld;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D45803291E6F0CA4000ABBEE /* Joytotheworld.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Joytotheworld.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D458032C1E6F0CA4000ABBEE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D458032E1E6F0CA4000ABBEE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D45803311E6F0CA4000ABBEE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D45803331E6F0CA4000ABBEE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D45803361E6F0CA4000ABBEE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D45803381E6F0CA4000ABBEE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D458033D1E6F0CA4000ABBEE /* JoytotheworldTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JoytotheworldTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D45803411E6F0CA4000ABBEE /* JoytotheworldTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JoytotheworldTests.swift; sourceTree = "<group>"; };
+		D45803431E6F0CA4000ABBEE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D45803481E6F0CA4000ABBEE /* JoytotheworldUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JoytotheworldUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D458034C1E6F0CA4000ABBEE /* JoytotheworldUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JoytotheworldUITests.swift; sourceTree = "<group>"; };
+		D458034E1E6F0CA4000ABBEE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D45803261E6F0CA4000ABBEE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D458033A1E6F0CA4000ABBEE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D45803451E6F0CA4000ABBEE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D45803201E6F0CA4000ABBEE = {
+			isa = PBXGroup;
+			children = (
+				D458032B1E6F0CA4000ABBEE /* Joytotheworld */,
+				D45803401E6F0CA4000ABBEE /* JoytotheworldTests */,
+				D458034B1E6F0CA4000ABBEE /* JoytotheworldUITests */,
+				D458032A1E6F0CA4000ABBEE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D458032A1E6F0CA4000ABBEE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D45803291E6F0CA4000ABBEE /* Joytotheworld.app */,
+				D458033D1E6F0CA4000ABBEE /* JoytotheworldTests.xctest */,
+				D45803481E6F0CA4000ABBEE /* JoytotheworldUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D458032B1E6F0CA4000ABBEE /* Joytotheworld */ = {
+			isa = PBXGroup;
+			children = (
+				D458032C1E6F0CA4000ABBEE /* AppDelegate.swift */,
+				D458032E1E6F0CA4000ABBEE /* ViewController.swift */,
+				D45803301E6F0CA4000ABBEE /* Main.storyboard */,
+				D45803331E6F0CA4000ABBEE /* Assets.xcassets */,
+				D45803351E6F0CA4000ABBEE /* LaunchScreen.storyboard */,
+				D45803381E6F0CA4000ABBEE /* Info.plist */,
+			);
+			path = Joytotheworld;
+			sourceTree = "<group>";
+		};
+		D45803401E6F0CA4000ABBEE /* JoytotheworldTests */ = {
+			isa = PBXGroup;
+			children = (
+				D45803411E6F0CA4000ABBEE /* JoytotheworldTests.swift */,
+				D45803431E6F0CA4000ABBEE /* Info.plist */,
+			);
+			path = JoytotheworldTests;
+			sourceTree = "<group>";
+		};
+		D458034B1E6F0CA4000ABBEE /* JoytotheworldUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D458034C1E6F0CA4000ABBEE /* JoytotheworldUITests.swift */,
+				D458034E1E6F0CA4000ABBEE /* Info.plist */,
+			);
+			path = JoytotheworldUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D45803281E6F0CA4000ABBEE /* Joytotheworld */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D45803511E6F0CA4000ABBEE /* Build configuration list for PBXNativeTarget "Joytotheworld" */;
+			buildPhases = (
+				D45803251E6F0CA4000ABBEE /* Sources */,
+				D45803261E6F0CA4000ABBEE /* Frameworks */,
+				D45803271E6F0CA4000ABBEE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Joytotheworld;
+			productName = Joytotheworld;
+			productReference = D45803291E6F0CA4000ABBEE /* Joytotheworld.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D458033C1E6F0CA4000ABBEE /* JoytotheworldTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D45803541E6F0CA4000ABBEE /* Build configuration list for PBXNativeTarget "JoytotheworldTests" */;
+			buildPhases = (
+				D45803391E6F0CA4000ABBEE /* Sources */,
+				D458033A1E6F0CA4000ABBEE /* Frameworks */,
+				D458033B1E6F0CA4000ABBEE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D458033F1E6F0CA4000ABBEE /* PBXTargetDependency */,
+			);
+			name = JoytotheworldTests;
+			productName = JoytotheworldTests;
+			productReference = D458033D1E6F0CA4000ABBEE /* JoytotheworldTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D45803471E6F0CA4000ABBEE /* JoytotheworldUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D45803571E6F0CA4000ABBEE /* Build configuration list for PBXNativeTarget "JoytotheworldUITests" */;
+			buildPhases = (
+				D45803441E6F0CA4000ABBEE /* Sources */,
+				D45803451E6F0CA4000ABBEE /* Frameworks */,
+				D45803461E6F0CA4000ABBEE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D458034A1E6F0CA4000ABBEE /* PBXTargetDependency */,
+			);
+			name = JoytotheworldUITests;
+			productName = JoytotheworldUITests;
+			productReference = D45803481E6F0CA4000ABBEE /* JoytotheworldUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D45803211E6F0CA4000ABBEE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = nilom;
+				TargetAttributes = {
+					D45803281E6F0CA4000ABBEE = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+					D458033C1E6F0CA4000ABBEE = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = D45803281E6F0CA4000ABBEE;
+					};
+					D45803471E6F0CA4000ABBEE = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = D45803281E6F0CA4000ABBEE;
+					};
+				};
+			};
+			buildConfigurationList = D45803241E6F0CA4000ABBEE /* Build configuration list for PBXProject "Joytotheworld" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D45803201E6F0CA4000ABBEE;
+			productRefGroup = D458032A1E6F0CA4000ABBEE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D45803281E6F0CA4000ABBEE /* Joytotheworld */,
+				D458033C1E6F0CA4000ABBEE /* JoytotheworldTests */,
+				D45803471E6F0CA4000ABBEE /* JoytotheworldUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D45803271E6F0CA4000ABBEE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D45803371E6F0CA4000ABBEE /* LaunchScreen.storyboard in Resources */,
+				D45803341E6F0CA4000ABBEE /* Assets.xcassets in Resources */,
+				D45803321E6F0CA4000ABBEE /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D458033B1E6F0CA4000ABBEE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D45803461E6F0CA4000ABBEE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D45803251E6F0CA4000ABBEE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D458032F1E6F0CA4000ABBEE /* ViewController.swift in Sources */,
+				D458032D1E6F0CA4000ABBEE /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D45803391E6F0CA4000ABBEE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D45803421E6F0CA4000ABBEE /* JoytotheworldTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D45803441E6F0CA4000ABBEE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D458034D1E6F0CA4000ABBEE /* JoytotheworldUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D458033F1E6F0CA4000ABBEE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D45803281E6F0CA4000ABBEE /* Joytotheworld */;
+			targetProxy = D458033E1E6F0CA4000ABBEE /* PBXContainerItemProxy */;
+		};
+		D458034A1E6F0CA4000ABBEE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D45803281E6F0CA4000ABBEE /* Joytotheworld */;
+			targetProxy = D45803491E6F0CA4000ABBEE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D45803301E6F0CA4000ABBEE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D45803311E6F0CA4000ABBEE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D45803351E6F0CA4000ABBEE /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D45803361E6F0CA4000ABBEE /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D458034F1E6F0CA4000ABBEE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D45803501E6F0CA4000ABBEE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D45803521E6F0CA4000ABBEE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Joytotheworld/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.nilom.Joytotheworld;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		D45803531E6F0CA4000ABBEE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Joytotheworld/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.nilom.Joytotheworld;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		D45803551E6F0CA4000ABBEE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = JoytotheworldTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.nilom.JoytotheworldTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Joytotheworld.app/Joytotheworld";
+			};
+			name = Debug;
+		};
+		D45803561E6F0CA4000ABBEE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = JoytotheworldTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.nilom.JoytotheworldTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Joytotheworld.app/Joytotheworld";
+			};
+			name = Release;
+		};
+		D45803581E6F0CA4000ABBEE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = JoytotheworldUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.nilom.JoytotheworldUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = Joytotheworld;
+			};
+			name = Debug;
+		};
+		D45803591E6F0CA4000ABBEE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = JoytotheworldUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.nilom.JoytotheworldUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = Joytotheworld;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D45803241E6F0CA4000ABBEE /* Build configuration list for PBXProject "Joytotheworld" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D458034F1E6F0CA4000ABBEE /* Debug */,
+				D45803501E6F0CA4000ABBEE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D45803511E6F0CA4000ABBEE /* Build configuration list for PBXNativeTarget "Joytotheworld" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D45803521E6F0CA4000ABBEE /* Debug */,
+				D45803531E6F0CA4000ABBEE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		D45803541E6F0CA4000ABBEE /* Build configuration list for PBXNativeTarget "JoytotheworldTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D45803551E6F0CA4000ABBEE /* Debug */,
+				D45803561E6F0CA4000ABBEE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		D45803571E6F0CA4000ABBEE /* Build configuration list for PBXNativeTarget "JoytotheworldUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D45803581E6F0CA4000ABBEE /* Debug */,
+				D45803591E6F0CA4000ABBEE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D45803211E6F0CA4000ABBEE /* Project object */;
+}
